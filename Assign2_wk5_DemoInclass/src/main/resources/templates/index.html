@@ -1,0 +1,32 @@
+<<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>StudentRegistration</title>
+</head>
+<body>
+  <form action="studentRegiser" method="POST">
+  
+  <!--  modify this as per your assignment!!!! -->
+      Employee Id : <input type="text" name="empId"/> </br>
+      Employee Name : <input type="text" name="empName"/></br>
+      Job Title : <input type="text" name="jobTitle"/></br>
+      Salary : <input type="text" name="salary"/></br>
+      Department No : <input type="text" name="deptNo"/></br>
+      <input type="submit" name="StudentRegister"/>
+   </form>
+   
+   <br>--------------------------------</br>
+   
+   <form action="studentUpdate" method="POST">
+      Employee Id : <input type="text" name="empId"/> </br>
+      Employee Name : <input type="text" name="empName"/></br>
+      Job Title : <input type="text" name="jobTitle"/></br>
+      Salary : <input type="text" name="salary"/></br>
+      Department No : <input type="text" name="deptNo"/></br>
+      <input type="submit" name="studentUpdate"/>
+   </form>
+ 
+   
+  </body>
+</html>
